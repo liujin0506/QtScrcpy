@@ -39,6 +39,7 @@ private slots:
     void on_menuBtn_clicked();
     void on_appSwitchBtn_clicked();
     void on_powerBtn_clicked();
+    void on_powerUnlockBtn_clicked();
     void on_screenShotBtn_clicked();
     void on_volumeUpBtn_clicked();
     void on_volumeDownBtn_clicked();

@@ -66,6 +66,10 @@
         <translation>power</translation>
     </message>
     <message>
+        <source>powerUnlock</source>
+        <translation>power&unlock</translation>
+    </message>
+    <message>
         <source>volume up</source>
         <translation>volume up</translation>
     </message>

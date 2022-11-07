@@ -48,6 +48,7 @@ void ToolForm::initStyle()
     IconHelper::Instance()->SetIcon(ui->openScreenBtn, QChar(0xf06e), 15);
     IconHelper::Instance()->SetIcon(ui->closeScreenBtn, QChar(0xf070), 15);
     IconHelper::Instance()->SetIcon(ui->powerBtn, QChar(0xf011), 15);
+    IconHelper::Instance()->SetIcon(ui->powerUnlockBtn, QChar(0xf011), 15);
     IconHelper::Instance()->SetIcon(ui->expandNotifyBtn, QChar(0xf103), 15);
     IconHelper::Instance()->SetIcon(ui->screenShotBtn, QChar(0xf0c4), 15);
     IconHelper::Instance()->SetIcon(ui->touchBtn, QChar(0xf111), 15);
@@ -151,6 +152,16 @@ void ToolForm::on_powerBtn_clicked()
         return;
     }
     device->postPower();
+}
+
+void ToolForm::on_powerUnlockBtn_clicked()
+{
+    auto device = qsc::IDeviceManage::getInstance().getDevice(m_serial);
+    if (!device) {
+        return;
+    }
+    device->postPower();
+    device->
 }
 
 void ToolForm::on_screenShotBtn_clicked()

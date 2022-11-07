@@ -66,6 +66,10 @@
         <translation>电源</translation>
     </message>
     <message>
+        <source>powerUnlock</source>
+        <translation>电源&解锁</translation>
+    </message>
+    <message>
         <source>volume up</source>
         <translation>音量加</translation>
     </message>

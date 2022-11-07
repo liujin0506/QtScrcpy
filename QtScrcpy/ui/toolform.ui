@@ -104,9 +104,9 @@
     </widget>
    </item>
    <item>
-    <widget class="QPushButton" name="powerBtn">
+    <widget class="QPushButton" name="powerUnlockBtn">
      <property name="toolTip">
-      <string>power</string>
+      <string>powerUnlock</string>
      </property>
      <property name="text">
       <string/>
