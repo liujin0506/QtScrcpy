@@ -358,10 +358,10 @@ void Dialog::on_startAdbdBtn_clicked()
         return;
     }
     outLog("start devices adbd...", false);
-    // adb tcpip 5555
+    // adb tcpip 8080
     QStringList adbArgs;
     adbArgs << "tcpip";
-    adbArgs << "5555";
+    adbArgs << "8080";
     m_adb.execute(ui->serialBox->currentText().trimmed(), adbArgs);
 }
 
