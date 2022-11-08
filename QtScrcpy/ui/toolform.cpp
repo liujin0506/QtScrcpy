@@ -161,7 +161,7 @@ void ToolForm::on_powerUnlockBtn_clicked()
         return;
     }
     device->postPower();
-    device->
+    device->setScreenPowerMode(false);
 }
 
 void ToolForm::on_screenShotBtn_clicked()
